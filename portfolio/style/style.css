@@ -12,7 +12,7 @@ body{
 .topbar{
 	height: 7vh;
 	width: 100vw;
-	background-color: yellow;
+	background-color:gray;
 }
 
 .ico{
@@ -28,7 +28,7 @@ body{
 .godown{
 	width: 4vw;
 	height: 6vh;
-	background: transparent url("../image/down.jpg") no-repeat;
+	background: transparent url("../images/down.jpg") no-repeat;
 	margin: auto;
 	background-size: 100% 100%; 
 }
@@ -36,29 +36,29 @@ body{
 .goup{
 	width: 4vw;
 	height: 6vh;
-	background: transparent url("../image/up.jpg") no-repeat;
+	background: transparent url("../images/up.jpg") no-repeat;
 	margin: auto;
 	background-size: 100% 100%; 
 }
 
 .exelink, .gitlink{
-	width: 2vw;
-	height: 4vh;
+	width: 4vw;
+	height: 7vh;
 	margin-left: 1vh;
 }
 
 .gitlink{
-	background: transparent url("../image/code.jpg") no-repeat;
+	background: transparent url("../images/code.jpg") no-repeat;
 	background-size: 100% 100%;
 }
 
 .exelink{
-	background: transparent url("../image/exe.jpg") no-repeat;	
+	background: transparent url("../images/exe.jpg") no-repeat;	
 	background-size: 100% 100%; 	
 }
 
 .main{
-	background: rgb(244, 65, 113) url("../image/mainx.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/main_.jpg") no-repeat;
 	background-size: 100% 100%; 
 	width: 100vw;
 	height:86vh;
@@ -152,24 +152,29 @@ body{
 }	
 
 .project1{
-	background-color: rgb(65, 160, 244) 
+	background: rgb(105, 58, 170) url("../images/main_1.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .project2{
-	background-color:rgb(105, 58, 170)
+	background: rgb(65, 160, 244)  url("../images/main_2.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .project3{
-	background-color:rgb(235, 89, 28)
+	background:rgb(166, 140, 116)  url("../images/main_3.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 
 .project4{
-	background-color:rgb(39, 112, 53)
+	background:rgb(255, 74, 58)  url("../images/main_4.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .project5{
-	background-color:rgb(64, 67, 68)
+	background:rgb(64, 67, 68)  url("../images/main_5.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .projtittle{
@@ -190,6 +195,7 @@ body{
 	color: white;
 	width: 90%;
 	text-align: justify;
+	margin: 4vh 0 ;
 }
 
 .projimage{
@@ -201,23 +207,29 @@ body{
 
 
 .projimage1{
-	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/budget.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .projimage2{
-	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/okurio.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .projimage3{
-	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/parcheesi.jpg") no-repeat;
+	background-size: 100% 100%; 
+
 }
 
 .projimage4{
-	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/places.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 .projimage5{
-	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+	background: rgb(244, 65, 113) url("../images/calculator.jpg") no-repeat;
+	background-size: 100% 100%; 
 }
 
 
