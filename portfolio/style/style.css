@@ -1,0 +1,223 @@
+*{
+	margin: 0;
+	background-size: 100% 100%; 
+
+}
+
+body{
+	height: 600vh;
+	width: 100vw;
+}
+
+.topbar{
+	height: 7vh;
+	width: 100vw;
+	background-color: yellow;
+}
+
+.ico{
+	width: 4vw;
+	height: 6vh;
+}
+
+.ico:hover{
+	transform:rotateY(360deg);
+	transition: all 1000ms;
+}
+
+.godown{
+	width: 4vw;
+	height: 6vh;
+	background: transparent url("../image/down.jpg") no-repeat;
+	margin: auto;
+	background-size: 100% 100%; 
+}
+
+.goup{
+	width: 4vw;
+	height: 6vh;
+	background: transparent url("../image/up.jpg") no-repeat;
+	margin: auto;
+	background-size: 100% 100%; 
+}
+
+.exelink, .gitlink{
+	width: 2vw;
+	height: 4vh;
+	margin-left: 1vh;
+}
+
+.gitlink{
+	background: transparent url("../image/code.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.exelink{
+	background: transparent url("../image/exe.jpg") no-repeat;	
+	background-size: 100% 100%; 	
+}
+
+.main{
+	background: rgb(244, 65, 113) url("../image/mainx.jpg") no-repeat;
+	background-size: 100% 100%; 
+	width: 100vw;
+	height:86vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.buttonbar{
+	height: 7vh;
+	width: 100vw;
+	background-color: silver;
+	display: flex;
+	justify-content: center;
+	margin: auto;
+}
+
+.name{
+	display: flex;
+	width: 100%;
+	height: 10vh;
+}
+
+.firstname{
+	font-size: 3em;
+	color: yellow;
+	font-size: normal;
+	flex: 40%;
+	text-align: right;
+}
+
+.lastname{
+	font-size: 3em;
+	color: powderblue	;
+	font-size: bolder;
+	flex: 60%;
+	margin-left: 1vw;
+	text-align: left;
+}
+
+.info{
+	width: 100vw;
+}
+
+.tittle{
+	font-size: 2.1em;
+	color: gray;
+	font-size: bolder;
+	flex: 59%;
+	margin: auto;
+	margin-left: 41%;
+	text-align: left;
+}
+
+.statement{
+	margin: auto;
+	width: 50vw;
+
+}
+
+.project{
+	height: 100vh;
+	width:  100vw;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 50px) {
+    .project {
+        flex-direction: column;
+        flex-wrap: none;
+    }
+}
+
+.projcontainer{
+	width: 50vw;
+	padding: 5vw;
+	height: 90vh;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+
+.projlinks{
+	width: 100%;
+	height: 10%;
+	display: flex;
+	justify-content: center;
+
+}	
+
+.project1{
+	background-color: rgb(65, 160, 244) 
+}
+
+.project2{
+	background-color:rgb(105, 58, 170)
+}
+
+.project3{
+	background-color:rgb(235, 89, 28)
+}
+
+
+.project4{
+	background-color:rgb(39, 112, 53)
+}
+
+.project5{
+	background-color:rgb(64, 67, 68)
+}
+
+.projtittle{
+	font-size: 3em;
+	color: white;
+	font-weight: bold;
+}
+
+.projdescription{
+	font-size: 1.5em;
+	color: white;
+	width: 90%;
+	text-align: justify;
+}
+
+.projtech{
+	font-size: 1.5em;
+	color: white;
+	width: 90%;
+	text-align: justify;
+}
+
+.projimage{
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-size: 100% 100%; 
+}
+
+
+.projimage1{
+	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+}
+
+.projimage2{
+	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+}
+
+.projimage3{
+	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+}
+
+.projimage4{
+	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+}
+
+.projimage5{
+	background: rgb(244, 65, 113) url("../image/main.jpg") no-repeat;
+}
+
+
