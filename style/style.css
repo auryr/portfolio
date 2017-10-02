@@ -95,19 +95,29 @@ body{
 	height: 14vh;
 }
 
-.firstname{
-	font-size: 3em;
+.welcome{
+	font-size: 2em;
 	color: white;
 	font-weight: 200;
 	flex: 40%;
+	margin-top: 0; 
+	text-align: right;
+}
+
+.firstname{
+	font-size: 4em;
+	color: white;
+	font-weight: 200;
+	flex: 45%;
+	margin-top: 0; 
 	text-align: right;
 }
 
 .lastname{
-	font-size: 4em;
+	font-size: 5.1em;
 	color: white	;
 	font-weight: bolder;
-	flex: 60%;
+	flex: 55%;
 	text-align: left;
 	letter-spacing: -0.3vw;
 	padding: 0;	
@@ -118,19 +128,25 @@ body{
 }
 
 .tittle{
-	font-size: 2.3em;
+	font-size: 3em;
 	color: rgb(28,103,204);
 	font-size: bolder;
-	flex: 60%;
+	flex: 100%;
 	margin: auto;
-	margin-left: 40%;
-	text-align: left;
+	text-align: center;
 }
 
-.statement{
+.statement, .welcome{
 	margin: auto;
-	width: 50vw;
-	color: white;
+	width: 100vw;
+	padding: 0 20%;
+	text-align: center;
+	color: #20B2AA;	
+	font-size: 1.5em
+}
+
+.welcome{
+	font-size: 3em;
 }
 
 .project{
