@@ -12,8 +12,27 @@ body{
 	width: 100vw;
 }
 
+.project {
+        flex-direction: column;
+        background-color: 	red; 		
+        flex-wrap: none;
+}
+@media (min-width: 900px){
+   
+.project{
+	height: 100vh;
+	width:  100vw;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: 	row;	
+}
+
+}
+
+
+
 .place-holder{
-	height: 400vh;
+	height: 300vh;
 }
 
 .godown{
@@ -56,9 +75,9 @@ body{
 
 
 .ico{
-	width: 4vw;
-	height: 6vh;
-	margin: 2vh 0.5vw;
+	width: 2.5vw;
+	height: 4vh;
+	margin: 3vh 0.5vw;
 	background: transparent;
 }
 
@@ -105,7 +124,7 @@ body{
 }
 
 .firstname{
-	font-size: 4em;
+	font-size: 3.5em;
 	color: white;
 	font-weight: 200;
 	flex: 45%;
@@ -114,7 +133,7 @@ body{
 }
 
 .lastname{
-	font-size: 5.1em;
+	font-size: 4.5em;
 	color: white	;
 	font-weight: bolder;
 	flex: 55%;
@@ -128,7 +147,7 @@ body{
 }
 
 .tittle{
-	font-size: 3em;
+	font-size: 2em;
 	color: rgb(28,103,204);
 	font-size: bolder;
 	flex: 100%;
@@ -149,19 +168,7 @@ body{
 	font-size: 3em;
 }
 
-.project{
-	height: 100vh;
-	width:  100vw;
-	display: flex;
-	flex-wrap: wrap;
-}
 
-@media only screen and (max-width: 50px) {
-    .project {
-        flex-direction: column;
-        flex-wrap: none;
-    }
-}
 
 .projcontainer{
 	width: 50vw;
@@ -175,7 +182,7 @@ body{
 .projectdetails{
 	background-color:transparent; ; 
 	margin: auto;
-	width: 80%;
+	width: 70%;
 	height:40%;
 }
 
@@ -188,20 +195,20 @@ body{
 }
 
 .projtittle{
-	font-size: 2.2em;
+	font-size: 1.8em;
 	color: white;
 	font-weight: bold;
 }
 
 .projdescription{
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: white;
-	width: 95%;
+	width: 100%;
 	text-align: justify;
 }
 
 .projtech{
-	font-size: 1.2em;
+	font-size: 1em;
 	color: white;
 	width: 90%;
 	text-align: justify;
