@@ -12,24 +12,6 @@ body{
 	width: 100vw;
 }
 
-.project{
-	height: 100vh;
-	width:  100vw;
-	display: flex;
-	flex-wrap: nowrap;
-	flex-direction: column;	
-}
-
-
-.projcontainer{
-	margin: 	auto;	;
-	width: 80vw;
-	height: 40vh;
-	background-color: transparent;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}	
 
 .ico{
 	width: 58px;
@@ -42,7 +24,6 @@ body{
 	transform:rotateY(360deg);
 	transition: all 1000ms;
 }
-
 
 
 .place-holder{
@@ -61,19 +42,6 @@ body{
 	background-size: 100% 100%; 
 }
 
-.exelink, .gitlink{
-	margin-left: 1vh;
-}
-
-.gitlink{
-	background: transparent url("../images/code.jpg") no-repeat;
-	background-size: 100% 100%;
-}
-
-.exelink{
-	background: transparent url("../images/exe.jpg") no-repeat;	
-	background-size: 100% 100%; 	
-}
 
 .topbar{
 	height: 10vh;
@@ -89,7 +57,7 @@ body{
 
 .main{
 	width: 100vw;
-	height:84vh;
+	height:82vh; /*here*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;	
@@ -163,6 +131,40 @@ body{
 
 .welcome{
 	font-size: 3em;
+}
+
+
+.project{
+	height: 98vh;
+	width:  100vw;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;	
+}
+
+
+.projcontainer{
+	margin: 	auto;	;
+	width: 80vw;
+	height: 40vh;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
+
+.exelink, .gitlink{
+	margin-left: 1vh;
+}
+
+.gitlink{
+	background: transparent url("../images/code.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.exelink{
+	background: transparent url("../images/exe.jpg") no-repeat;	
+	background-size: 100% 100%; 	
 }
 
 
@@ -272,7 +274,7 @@ body{
 
 	.projcontainer{
 		width: 50vw;
-		height: 94vh;
+		height: 92vh;
 		flex-direction: column;
 		justify-content: center;
 	}	
