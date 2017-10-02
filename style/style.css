@@ -1,28 +1,19 @@
 *{
 	margin: 0;
 	background-size: 100% 100%; 
+}
 
+h1{	
+	font-family: georgia;
 }
 
 body{
-	height: 600vh;
+	height: 100vh;
 	width: 100vw;
 }
 
-.topbar{
-	height: 7vh;
-	width: 100vw;
-	background-color:gray;
-}
-
-.ico{
-	width: 4vw;
-	height: 6vh;
-}
-
-.ico:hover{
-	transform:rotateY(360deg);
-	transition: all 1000ms;
+.place-holder{
+	height: 400vh;
 }
 
 .godown{
@@ -42,8 +33,8 @@ body{
 }
 
 .exelink, .gitlink{
-	width: 4vw;
-	height: 7vh;
+	width: 3vw;
+	height: 5vh;
 	margin-left: 1vh;
 }
 
@@ -57,20 +48,42 @@ body{
 	background-size: 100% 100%; 	
 }
 
-.main{
-	background: rgb(244, 65, 113) url("../images/main_.jpg") no-repeat;
-	background-size: 100% 100%; 
+.topbar{
+	height: 10vh;
 	width: 100vw;
-	height:86vh;
+	background-color: black;	
+}
+
+
+.ico{
+	width: 4vw;
+	height: 6vh;
+	margin: 2vh 0.5vw;
+	background: transparent;
+}
+
+.ico:hover{
+	transform:rotateY(360deg);
+	transition: all 1000ms;
+}
+.container{
+	background: rgb(64, 67, 68) url("../images/main.jpg") no-repeat;
+	background-size: 100% 100%; 	
+}
+
+.main{
+	width: 100vw;
+	height:84vh;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: center;	
+	background: rgba(0,0,0,0.5);
 }
 
 .buttonbar{
-	height: 7vh;
+	height: 6vh;
 	width: 100vw;
-	background-color: silver;
+	background-color:transparent;	
 	display: flex;
 	justify-content: center;
 	margin: auto;
@@ -79,24 +92,25 @@ body{
 .name{
 	display: flex;
 	width: 100%;
-	height: 10vh;
+	height: 14vh;
 }
 
 .firstname{
 	font-size: 3em;
-	color: yellow;
-	font-size: normal;
+	color: white;
+	font-weight: 200;
 	flex: 40%;
 	text-align: right;
 }
 
 .lastname{
-	font-size: 3em;
-	color: powderblue	;
-	font-size: bolder;
+	font-size: 4em;
+	color: white	;
+	font-weight: bolder;
 	flex: 60%;
-	margin-left: 1vw;
 	text-align: left;
+	letter-spacing: -0.3vw;
+	padding: 0;	
 }
 
 .info{
@@ -104,19 +118,19 @@ body{
 }
 
 .tittle{
-	font-size: 2.1em;
-	color: gray;
+	font-size: 2.3em;
+	color: rgb(28,103,204);
 	font-size: bolder;
-	flex: 59%;
+	flex: 60%;
 	margin: auto;
-	margin-left: 41%;
+	margin-left: 40%;
 	text-align: left;
 }
 
 .statement{
 	margin: auto;
 	width: 50vw;
-
+	color: white;
 }
 
 .project{
@@ -135,37 +149,70 @@ body{
 
 .projcontainer{
 	width: 50vw;
-	padding: 5vw;
-	height: 90vh;
+	height: 94vh;
 	background-color: transparent;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }	
 
+.projectdetails{
+	background-color:transparent; ; 
+	margin: auto;
+	width: 80%;
+	height:40%;
+}
+
+.projimage{
+	background-color:transparent; ; 
+	margin: auto;
+	width: 70%;
+	height:48%;
+	background-size: 100% 100%; 
+}
+
+.projtittle{
+	font-size: 2.2em;
+	color: white;
+	font-weight: bold;
+}
+
+.projdescription{
+	font-size: 1.2em;
+	color: white;
+	width: 95%;
+	text-align: justify;
+}
+
+.projtech{
+	font-size: 1.2em;
+	color: white;
+	width: 90%;
+	text-align: justify;
+	margin: 4vh 0 ;
+}
+
 .projlinks{
 	width: 100%;
-	height: 10%;
 	display: flex;
 	justify-content: center;
 
 }	
 
 .project1{
-	background: rgb(105, 58, 170) url("../images/main_1.jpg") no-repeat;
+	background: rgb(105, 58, 170) url("../images/main1.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project2{
-	background: rgb(65, 160, 244)  url("../images/main_2.jpg") no-repeat;
+	background: rgb(65, 160, 244)  url("../images/main2.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project3{
-	background:rgb(166, 140, 116)  url("../images/main_3.jpg") no-repeat;
+	background:rgb(166, 140, 116)  url("../images/main3.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
-
 
 .project4{
 	background:rgb(255, 74, 58)  url("../images/main_4.jpg") no-repeat;
@@ -177,58 +224,30 @@ body{
 	background-size: 100% 100%; 
 }
 
-.projtittle{
-	font-size: 3em;
-	color: white;
-	font-weight: bold;
-}
-
-.projdescription{
-	font-size: 1.5em;
-	color: white;
-	width: 90%;
-	text-align: justify;
-}
-
-.projtech{
-	font-size: 1.5em;
-	color: white;
-	width: 90%;
-	text-align: justify;
-	margin: 4vh 0 ;
-}
-
-.projimage{
-	margin: auto;
-	width: 100%;
-	height: 100%;
-	background-size: 100% 100%; 
-}
-
 
 .projimage1{
-	background: rgb(244, 65, 113) url("../images/budget.jpg") no-repeat;
+	background: transparent url("../images/budget.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .projimage2{
-	background: rgb(244, 65, 113) url("../images/okurio.jpg") no-repeat;
+	background:transparent url("../images/okurio.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .projimage3{
-	background: rgb(244, 65, 113) url("../images/parcheesi.jpg") no-repeat;
+	background:transparent url("../images/parcheesi.jpg") no-repeat;
 	background-size: 100% 100%; 
 
 }
 
 .projimage4{
-	background: rgb(244, 65, 113) url("../images/places.jpg") no-repeat;
+	background:transparent url("../images/places.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .projimage5{
-	background: rgb(244, 65, 113) url("../images/calculator.jpg") no-repeat;
+	background: transparent url("../images/calculator.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
