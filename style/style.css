@@ -12,23 +12,23 @@ body{
 	width: 100vw;
 }
 
-.project {
-        flex-direction: column;
-        background-color: 	red; 		
-        flex-wrap: none;
-}
-@media (min-width: 900px){
-   
 .project{
 	height: 100vh;
 	width:  100vw;
 	display: flex;
 	flex-wrap: wrap;
-	flex-direction: 	row;	
+	flex-direction: 	column;	
 }
 
-}
 
+.projcontainer{
+	width: 50vw;
+	height: 94vh;
+	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}	
 
 
 .place-holder{
@@ -36,24 +36,24 @@ body{
 }
 
 .godown{
-	width: 4vw;
-	height: 6vh;
+	width: 40px;
+	height: 30px;
 	background: transparent url("../images/down.jpg") no-repeat;
 	margin: auto;
 	background-size: 100% 100%; 
 }
 
 .goup{
-	width: 4vw;
-	height: 6vh;
+	width: 40px;
+	height: 30px;
 	background: transparent url("../images/up.jpg") no-repeat;
 	margin: auto;
 	background-size: 100% 100%; 
 }
 
 .exelink, .gitlink{
-	width: 3vw;
-	height: 5vh;
+	width: 40px;
+	height: 30px;
 	margin-left: 1vh;
 }
 
@@ -75,8 +75,8 @@ body{
 
 
 .ico{
-	width: 2.5vw;
-	height: 4vh;
+	width: 32px;
+	height: 30px;
 	margin: 3vh 0.5vw;
 	background: transparent;
 }
@@ -86,7 +86,7 @@ body{
 	transition: all 1000ms;
 }
 .container{
-	background: rgb(64, 67, 68) url("../images/main.jpg") no-repeat;
+	background: rgb(64, 67, 68) url("../images/main_.jpg") no-repeat;
 	background-size: 100% 100%; 	
 }
 
@@ -169,28 +169,18 @@ body{
 }
 
 
-
-.projcontainer{
-	width: 50vw;
-	height: 94vh;
-	background-color: transparent;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}	
-
 .projectdetails{
 	background-color:transparent; ; 
 	margin: auto;
-	width: 70%;
-	height:40%;
+	width: 90%;
+	height:50%;
 }
 
 .projimage{
 	background-color:transparent; ; 
 	margin: auto;
 	width: 70%;
-	height:48%;
+	height:40%;
 	background-size: 100% 100%; 
 }
 
@@ -223,27 +213,27 @@ body{
 }	
 
 .project1{
-	background: rgb(105, 58, 170) url("../images/main1.jpg") no-repeat;
+	background: rgb(105, 58, 170) url("../images/main_1.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project2{
-	background: rgb(65, 160, 244)  url("../images/main2.jpg") no-repeat;
+	background: rgb(65, 160, 244)  url("../images/main_2.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project3{
-	background:rgb(166, 140, 116)  url("../images/main3.jpg") no-repeat;
+	background:rgb(166, 140, 116)  url("../images/main_3.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project4{
-	background:rgb(255, 74, 58)  url("../images/main_4.jpg") no-repeat;
+	background:rgb(255, 74, 58)  url("../images/main__4.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project5{
-	background:rgb(64, 67, 68)  url("../images/main_5.jpg") no-repeat;
+	background:rgb(64, 67, 68)  url("../images/main__5.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
@@ -275,3 +265,16 @@ body{
 }
 
 
+@media (min-width : 601px) {
+
+	.project1, .project2, .project3{
+		flex-direction: 	column	;		
+		flex-wrap: 	nowrap;		
+	}
+
+	.projcontainer{
+		width: 100vw;
+		height: 50vh;
+	}	
+
+}
