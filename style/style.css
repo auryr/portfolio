@@ -1,3 +1,5 @@
+/*#38daae*/
+
 *{
 	margin: 0;
 	background-size: 100% 100%; 
@@ -27,31 +29,20 @@ body{
 
 
 .place-holder{
-	height: 300vh;
-}
-
-.godown{
-	background: transparent url("../images/down.jpg") no-repeat;
-	margin: auto;
-	background-size: 100% 100%; 
-}
-
-.goup{
-	background: transparent url("../images/up.jpg") no-repeat;
-	margin: auto;
-	background-size: 100% 100%; 
+	height: 330vh;
 }
 
 
 .topbar{
 	height: 10vh;
 	width: 100vw;
-	background-color: black;	
+	background-color:#44454B;	
 }
 
 
 .container{
-	background: rgb(64, 67, 68) url("../images/main.jpg") no-repeat;
+/*	background: rgb(64, 67, 68) url("../images/main_.jpg") no-repeat;
+*/	background: white url("../images/bgmain.jpg") no-repeat;
 	background-size: 100% 100%; 	
 }
 
@@ -61,36 +52,32 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;	
-	background: rgba(0,0,0,0.5);
-}
+/*	background: rgba(0,0,0,0.5);
+*/}
 
-.buttonbar{
-	height: 6vh;
-	width: 100vw;
-	background-color:transparent;	
+.head{
+	width: 100%;
 	display: flex;
 	justify-content: center;
-	margin: auto;
+	flex-direction: column;
 }
 
+.logo{
+	margin: auto;
+	width: 30%;
+	height: 30%;
+}
 .name{
+
 	display: flex;
 	width: 100%;
 	height: 14vh;
 }
 
-.welcome{
-	font-size: 2em;
-	color: white;
-	font-weight: 200;
-	flex: 40%;
-	margin-top: 0; 
-	text-align: right;
-}
 
 .firstname{
 	font-size: 3.5em;
-	color: white;
+	color:lightseagreen  /*#1CCFD3*/;
 	font-weight: 200;
 	flex: 45%;
 	margin-top: 0; 
@@ -99,8 +86,9 @@ body{
 
 .lastname{
 	font-size: 4.5em;
-	color: white	;
+	color:  lightseagreen	;
 	font-weight: bolder;
+	font-weight:bolder; 
 	flex: 55%;
 	text-align: left;
 	letter-spacing: -0.3vw;
@@ -113,7 +101,7 @@ body{
 
 .tittle{
 	font-size: 2em;
-	color: rgb(28,103,204);
+	color: #F31C92;
 	font-size: bolder;
 	flex: 100%;
 	margin: auto;
@@ -125,14 +113,21 @@ body{
 	width: 100vw;
 	padding: 0 20%;
 	text-align: center;
-	color: #20B2AA;	
 	font-size: 1.5em
 }
 
+
+
 .welcome{
 	font-size: 3em;
+	color: lightseagreen ;
+	font-weight:bolder; 
+
 }
 
+.bye{
+	font-size: 2em;
+}
 
 .project{
 	height: 98vh;
@@ -143,7 +138,7 @@ body{
 }
 
 
-.projcontainer{
+.projcontainer, .projcontainer2{
 	margin: 	auto;	;
 	width: 80vw;
 	height: 40vh;
@@ -153,34 +148,21 @@ body{
 	justify-content: center;
 }	
 
-.exelink, .gitlink{
-	margin-left: 1vh;
+.projimage{
+	background-color:transparent; ; 
+	margin: auto;
+	width: 60%;
+	height:40%;
+	background-size: 100% 100%; 
 }
-
-.gitlink{
-	background: transparent url("../images/code.jpg") no-repeat;
-	background-size: 100% 100%;
-}
-
-.exelink{
-	background: transparent url("../images/exe.jpg") no-repeat;	
-	background-size: 100% 100%; 	
-}
-
 
 .projectdetails{
 	background-color:transparent; ; 
 	margin: auto;
 	width: 90%;
-	height:50%;
-}
-
-.projimage{
-	background-color:transparent; ; 
-	margin: auto;
-	width: 70%;
 	height:40%;
-	background-size: 100% 100%; 
+	display: 	flex;	
+	flex-direction:column;	
 }
 
 .projtittle{
@@ -194,6 +176,7 @@ body{
 	color: white;
 	width: 100%;
 	text-align: justify;
+	margin-bottom: 	0; 	
 }
 
 .projtech{
@@ -201,38 +184,54 @@ body{
 	color: white;
 	width: 90%;
 	text-align: justify;
-	margin: 4vh 0 ;
+	margin: 2vh 0 ;
 }
 
 .projlinks{
 	width: 100%;
+	height: 	10%;
 	display: flex;
 	justify-content: center;
-
 }	
 
+.exelink, .gitlink{
+	margin:0; 	
+	margin-left: 1vh;
+}
+
+.gitlink{
+	background: transparent url("../images/code.jpg") no-repeat;
+	background-size: 100% 100%;
+}
+
+.exelink{
+	background: transparent url("../images/exe.jpg") no-repeat;	
+	background-size: 100% 100%; 	
+}
+
 .project1{
-	background: rgb(105, 58, 170) url("../images/main1.jpg") no-repeat;
+	background: #7456A0  url("../images/bgmain_1.jpg") no-repeat;
 	background-size: 100% 100%; 
+
 }
 
 .project2{
-	background: rgb(65, 160, 244)  url("../images/main2.jpg") no-repeat;
+	background:#D6335E  url("../images/bgmain_2.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project3{
-	background:rgb(166, 140, 116)  url("../images/main3.jpg") no-repeat;
+	background:rgb(166, 140, 116)  url("../images/main_3.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project4{
-	background:rgb(255, 74, 58)  url("../images/main_4.jpg") no-repeat;
+	background:rgb(255, 74, 58)  url("../images/main__4.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
 .project5{
-	background:rgb(64, 67, 68)  url("../images/main_5.jpg") no-repeat;
+	background:rgb(64, 67, 68)  url("../images/main__5.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
@@ -240,22 +239,32 @@ body{
 .projimage1{
 	background: transparent url("../images/budget.jpg") no-repeat;
 	background-size: 100% 100%; 
+	border:15px solid black;
+	border-radius: 10px;
 }
 
 .projimage2{
 	background:transparent url("../images/okurio.jpg") no-repeat;
 	background-size: 100% 100%; 
+	border:15px solid black;
+	border-top:25px solid black;
+	border-radius: 10px;
 }
 
 .projimage3{
 	background:transparent url("../images/parcheesi.jpg") no-repeat;
 	background-size: 100% 100%; 
-
+	border:15px solid black;
+	border-top:25px solid black;
+	border-radius: 10px;
 }
 
 .projimage4{
 	background:transparent url("../images/places.jpg") no-repeat;
 	background-size: 100% 100%; 
+	border:15px solid black;
+	border-top:25px solid black;
+	border-radius: 10px;
 }
 
 .projimage5{
@@ -272,19 +281,65 @@ body{
 
 	}
 
-	.projcontainer{
+	.projcontainer, .projcontainer2{
 		width: 50vw;
 		height: 92vh;
 		flex-direction: column;
 		justify-content: center;
 	}	
 
+	.projcontainer2{
+		flex-direction:column-reverse;	
+	}
 
 	.ico{
-		width: 	32px;
-		height: 	30px;
+		width: 	40px;
+		height: 38px;
+		margin-top:10px; 
 	}	
 	
 }
 
+.footer{
+	background-color:black;
+	height:30vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
 
+.smalllogo{
+	width: 6%;
+	margin: auto;
+	margin-top: 3vh;
+	background: transparent url("../images/smalllogo.jpg") no-repeat;
+	background-size: 100% 100%;
+	border-radius: 25%;
+}
+
+.label{
+	color: white;
+	font-size: 0.8em;
+	text-align: center;
+	font-family: sans-serif;
+	height: 9vh 
+}
+
+.buttonbar{
+	height: 7vh;
+	width: 100vw;
+	display: flex;
+	justify-content: center;
+}
+
+.godown{
+	background: transparent url("../images/down2.jpg") no-repeat;
+	background-size: 100% 100%;
+	margin-top: 0px;
+}
+
+.goup{
+	background: transparent url("../images/up2.jpg") no-repeat;
+	background-size: 100% 100%; 
+	margin-top: 0px;
+}
