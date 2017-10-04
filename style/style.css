@@ -210,13 +210,14 @@ body{
 }
 
 .project1{
-	background: #7456A0  url("../images/bgmain_1.jpg") no-repeat;
+	background: #7456A0  url("../images/bgmain.jpg") no-repeat;
 	background-size: 100% 100%; 
+
 
 }
 
 .project2{
-	background:#D6335E  url("../images/bgmain_2.jpg") no-repeat;
+	background:#D6335E  url("../images/bgmain.jpg") no-repeat;
 	background-size: 100% 100%; 
 }
 
@@ -292,6 +293,14 @@ body{
 		flex-direction:column-reverse;	
 	}
 
+	.color1{
+			background-color: 	rgba(	255,0,127,0.7);
+	}	
+	
+	.color2{
+			background-color: 	rgba(	0,102,204,0.7);
+	}	
+	
 	.ico{
 		width: 	40px;
 		height: 38px;
