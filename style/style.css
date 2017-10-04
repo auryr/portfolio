@@ -196,6 +196,7 @@ body{
 .exelink, .gitlink{
 	margin:0; 	
 	margin-left: 1vh;
+	border:1px solid white	;
 }
 
 .gitlink{
